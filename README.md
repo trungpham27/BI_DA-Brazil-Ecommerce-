@@ -16,26 +16,28 @@ Data will include information related to customers, products, shipping, payments
 
 ## 3. Detailed Visualization and Data Analysis
 ### 3.1. Sales overview
+![1](https://github.com/trungpham27/BI_DA-Brazil-Ecommerce-/assets/160450740/7412e98c-9832-4805-8885-98064afe5b79)
 
-Master dashboard
 - The total sales, total orders are 13,59 million R$ and 99 thousand orders respectively,  and have increased significantly since 2017, with the highest sales in 11/2017.
 - The average order value is 137,75 R$
 - The cancellation rate is only 0,47%, which is a positive sign.
 - The best selling products of all time are health and beauty products.
 
-Highest Sales Date
+![2](https://github.com/trungpham27/BI_DA-Brazil-Ecommerce-/assets/160450740/e2225d1f-29bd-4a38-a2d7-b8c2bff2c63b)
+
 Drilling into 11/2017, it was obvious why this month yielded the greatest sales. Black Friday was the 24th of the month, orders and sales exploded during this day. 
 
-Customer Segments’ Distribution
+![3](https://github.com/trungpham27/BI_DA-Brazil-Ecommerce-/assets/160450740/92bb11cb-6b82-4c3e-9f86-e531342e1aaa)
+
 Customers are divided into 4 segments by using the RFM metrics. However, the datasets that were provided only consist of customers that either have made a purchase once or have never purchased anything, the F (Frequency) metric is therefore left out. Customers are then segmented by using only the R (Recency) and M (Monetary) metrics. Those who have made a purchase recently that is also one of high-value are the “VIP Shoppers”, those who made a purchase of high-value but haven’t purchased again recently are the “Past High Rollers”. Those who ordered moderate-value products recently are the “Recent Buyers” and those who have only made a purchase of low-value products a long time ago are the “Inactive Customers”.
+
 Low to moderate-value customers are about 60% of the customer base but only account for 25% of sales .“VIP Shoppers” and “Past High Rollers” on the other hand, take about 40% of the customer base but account for 75% of sales, these are the customers that the company needs to focus more with their marketing efforts.
 
 ### 3.2. Customer Segments’ preferences
 #### 3.2.1. Inactive Customers and Recent Buyers
 
-Inactive Customers’ preference
+![4](https://github.com/trungpham27/BI_DA-Brazil-Ecommerce-/assets/160450740/f5547e4b-943d-43aa-b42f-1b551ccb89b9)
 
-Recent Buyers’ preference
 These 2 types of customers are not so different on their taste and behavior, they share some common characteristics:
 - They tend to make purchases during weekday afternoons.
 - The value of their orders are not substantial so they want to pay up quickly, preferably within 3 installments. 
@@ -43,9 +45,6 @@ These 2 types of customers are not so different on their taste and behavior, the
 
 #### 3.2.2. VIP Shoppers and Past High Rollers
 
-VIP Shoppers preference
-
-Past High Rollers’ preference
 These 2 also have similar patterns in their favorite ordering time as the 2 types above as they prefer to make a purchase during weekday afternoons. VIP Shoppers especially are most active on Monday afternoons.
 Aside from that, these 2 types are alike in these traits:
 - They love buying watches and gifts, apart from the common favorites.
@@ -54,7 +53,8 @@ The 4 segments are not separable by payment methods, as they all primarily pay w
 
 ### 3.3. Product Reviews
 
-Product Reviews
+![5](https://github.com/trungpham27/BI_DA-Brazil-Ecommerce-/assets/160450740/710c4657-e257-479f-b343-c717fd49bd47)
+
 Some statistics about product reviews:
 - 40,77% of order reviews had a comment included.
 - 77% of reviews were positive, which had a rating of either 4 or 5.
@@ -62,13 +62,13 @@ Some statistics about product reviews:
 
 ### 3.4. Delivery time
 
-Delivery Time & Reviews
+![6](https://github.com/trungpham27/BI_DA-Brazil-Ecommerce-/assets/160450740/26caf05e-bdb6-489a-8270-c49d0d58aa6d)
 Delivery time statistics:
 - The average confirmation time is 0,53 days, the average pickup time is 2,75 days, the average delivery time is 9,14 days. From start to end (purchasing to receiving), the process took 12,41 days on average.
 - 8,11% of orders were late
 One key takeaway is that the delivery time does affect the customers’ satisfaction: the slower the delivery time, the lower the review score. That’s why we will need to look at specific sellers, cities or states that are having delivery problems.
 
-States, Cities and Sellers
+![7](https://github.com/trungpham27/BI_DA-Brazil-Ecommerce-/assets/160450740/60bf758b-ed1a-4cac-a7f4-6ce919910048)
 States and cities that have a percentage of late orders over the average number would be marked with a red icon. Considering the top 3 states that generate the highest sales, we have RJ (Rio de Janeiro) quite out of standard so we would look at this state in specific to uncover the underlying issues.
 
 Rio de Janeiro’s delivery situation
@@ -78,15 +78,15 @@ Looking at the figure, almost all the cities in this state are having a problem 
 ### 4.1. Consider peak sales time
 - Special days like Black Fridays or other holidays are a must for marketing strategies in order to increase product sales.
 - Organize campaigns during weekday afternoons since this is the time that customers are active the most.
-- 
+
 ### 4.2. Targeted marketing based on customer segments
 - For the “Inactive Customers” and “Recent Buyers” groups
-+ Consider boosting marketing efforts on bed-bath-table, beauty cosmetics, sports and leisure-related products.
-+ Release vouchers that encourage installments in 3 months since this is their preferred duration to pay off an order
+	+ Consider boosting marketing efforts on bed-bath-table, beauty cosmetics, sports and leisure-related products.
+	+ Release vouchers that encourage installments in 3 months since this is their preferred duration to pay off an order
 - For the “VIP Shoppers” and “Past High Rollers”:
 	+ Focus more on these 2 groups than the previous 2 since they generate more sales.
-+ Consider boosting marketing efforts on watches and gifts, basically luxury items and beauty products.
-+ Release vouchers that encourage installments in 5 months since this is their preferred duration to pay off an order
+	+ Consider boosting marketing efforts on watches and gifts, basically luxury items and beauty products.
+	+ Release vouchers that encourage installments in 5 months since this is their preferred duration to pay off an order
 - For “VIP Shoppers” specifically, consider releasing any kinds of vouchers or exclusive deals that would be in effect on Mondays as this is their favorite day to shop.
 
 ### 4.3. Products’ Quality Control
